@@ -1,0 +1,99 @@
+body {
+  background-image: url("../img/wood.jpg");
+  background-color: black;
+}
+
+.logga {
+  margin: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*Ändrar textstorleken på h2*/
+h2 {
+  font-size: 1.5em;
+  color: rgb(231, 231, 231);
+}
+
+article {
+  border-top: solid rgb(54, 54, 54) 4px;
+  border-bottom: solid rgb(54, 54, 54) 4px;
+  margin: 20px;
+  padding: 10px;
+}
+
+p {
+  color: rgb(231, 231, 231);
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.r1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255, 0.35);
+  border-radius: 15%;
+}
+
+/*Stylar bakgrundsbilden*/
+.bakgrundimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  z-index: -1;
+  width: 900px;
+}
+
+.bild1 {
+  color: rgb(205, 205, 205);
+  margin: 10px;
+}
+
+.bild2 {
+  color: rgb(205, 205, 205);
+  margin: 10px;
+}
+
+.bild3 {
+  color: rgb(205, 205, 205);
+  margin: 10px;
+}
+
+.footer {
+  color: white;
+}
+
+.footer ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.omoss {
+  margin: 30px;
+  display: inline;
+  color: rgb(232, 232, 232);
+}
+
+.container2 img {
+  margin-left: 20px;
+}
+
+.tillbaka {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(255, 255, 255, 0.35);
+  display: flex;
+  align-items: center;
+  border: solid 2px green;
+}

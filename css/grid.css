@@ -1,0 +1,90 @@
+/*Skapar en grid template*/
+.container {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 50px 50px 50px 200px 200px 200px 200px;
+  grid-gap: 5px;
+}
+
+/*Använder grid för att placera ut nav menyn*/
+.nav1 {
+  grid-column: 2/12;
+  grid-row: 2/3;
+}
+
+/*Använder grid för att placera ut bakgrundsbilden*/
+.bakgrundimg {
+  grid-column: 1/13;
+  grid-row: 4/5;
+}
+
+/*Använder grid för att placera ut headern*/
+.r1 {
+  grid-column: 5/9;
+  grid-row: 5/6;
+}
+
+.figure {
+  grid-row: 6/8;
+}
+
+/*
+.container2 {
+  display: grid;
+  grid-template-columns: 1030px 300px;
+  grid-template-rows: 1498px 1333px 667px;
+  grid-gap: 5px;
+}
+
+.bordbild {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.bild-from-above {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.bild-ostbricka {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.bild1 {
+  grid-column: 2/-1;
+  grid-row: 1/2;
+}
+
+.bild2 {
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
+
+.bild3 {
+  grid-column: 2/-1;
+  grid-row: 3/4;
+}*/
+.container3 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(15, 50px);
+}
+
+.steak {
+  grid-column: 6/7;
+}
+
+.tillbaka {
+  grid-column: 8/9;
+  grid-row: 14/15;
+}
+
+/*Mediaquery for mobilanpassning*/
+@media only screen and (max-width: 375px) {
+  .bakgrundimg {
+    width: 200px;
+  }
+}
