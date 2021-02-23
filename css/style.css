@@ -95,6 +95,7 @@ p {
   background-color: rgb(255, 255, 255, 0.35);
   display: flex;
   align-items: center;
+  justify-content: center;
   border: solid 2px green;
 }
 
@@ -104,14 +105,14 @@ p {
 
 @media only screen and (max-width: 480px) {
   .bild1 {
-    font-size: 2em;
+    font-size: 50px;
   }
 
   .bild2 {
-    font-size: 2em;
+    font-size: 50px;
   }
 
   .bild3 {
-    font-size: 2em;
+    font-size: 50px;
   }
 }
