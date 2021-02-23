@@ -30,7 +30,6 @@
   grid-row: 6/8;
 }
 
-/*
 .container2 {
   display: grid;
   grid-template-columns: 1030px 300px;
@@ -66,7 +65,8 @@
 .bild3 {
   grid-column: 2/-1;
   grid-row: 3/4;
-}*/
+}
+
 .container3 {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -83,8 +83,4 @@
 }
 
 /*Mediaquery for mobilanpassning*/
-@media only screen and (max-width: 375px) {
-  .bakgrundimg {
-    width: 200px;
-  }
-}
+@media only screen and (max-width: 375px) {}

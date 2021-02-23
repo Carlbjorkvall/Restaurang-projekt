@@ -57,17 +57,17 @@ p {
 
 .bild1 {
   color: rgb(205, 205, 205);
-  margin: 10px;
+  overflow: scroll;
 }
 
 .bild2 {
   color: rgb(205, 205, 205);
-  margin: 10px;
+  overflow: scroll;
 }
 
 .bild3 {
   color: rgb(205, 205, 205);
-  margin: 10px;
+  overflow: scroll;
 }
 
 .footer {
@@ -96,4 +96,8 @@ p {
   display: flex;
   align-items: center;
   border: solid 2px green;
+}
+
+.bordbild {
+  margin: 0px;
 }
