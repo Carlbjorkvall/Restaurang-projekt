@@ -116,7 +116,11 @@ p {
     font-size: 50px;
   }
 
-  .omsosstext {
+  .omosstext {
     font-size: 50px;
+  }
+
+  .omoss {
+    font-size: 60px;
   }
 }
